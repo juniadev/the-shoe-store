@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTitleText">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/shoeBlue</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="ShoeNameText">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/shoeBlue</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ShoeDescriptionText">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="LoginEditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/edit_text_width</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">@dimen/fragment_vertical_margin</item>
+    </style>
+
+    <style name="DefaultButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="backgroundTint">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+</resources>

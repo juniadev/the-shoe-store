@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="@dimen/fragment_vertical_margin"
+        android:paddingLeft="@dimen/fragment_vertical_margin"
+        android:paddingRight="@dimen/fragment_vertical_margin">
+
+        <ImageView
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/instructions_image"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/fragment_vertical_margin"
+            android:padding="@dimen/image_padding_small"
+            app:srcCompat="@android:drawable/ic_dialog_info" />
+
+        <TextView
+            android:id="@+id/instructions_text_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_text_1"
+            android:layout_marginTop="@dimen/fragment_vertical_margin"/>
+
+        <TextView
+            android:id="@+id/instructions_text_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_text_2"
+            android:layout_marginTop="@dimen/fragment_vertical_margin"/>
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/DefaultButton"
+            android:text="@string/next"
+            android:layout_marginTop="@dimen/fragment_vertical_margin"/>
+
+    </LinearLayout>
+</layout>

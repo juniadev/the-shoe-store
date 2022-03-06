@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Shoe Store</string>
+    <string name="next">Next</string>
+    <string name="logout">Logout</string>
+
+    <!-- Login -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_text_1">This is the Shoe Store, where all your shoe dreams come true!</string>
+    <string name="welcome_text_2">Please tap in the button below to read the instructions and understand how our store works.</string>
+
+    <!-- Instructions -->
+    <string name="instructions">Instructions</string>
+    <string name="instructions_text_1">In the next screen, you\'ll be able to browse through the shoes list.</string>
+    <string name="instructions_text_2">Please take your time and enjoy!</string>
+
+    <!-- Shoe list -->
+    <string name="shoe_list">Shoe List</string>
+    <string name="empty_list">No shoes to display.</string>
+    <string name="shoe_name">Shoe name</string>
+    <string name="shoe_company">Company: %s</string>
+    <string name="shoe_size">Shoe size: %.1f</string>
+    <string name="shoe_description">Description: %s</string>
+
+    <!-- Shoe detail -->
+    <string name="shoe_detail">Shoe Detail</string>
+    <string name="shoe_detail_company">Company</string>
+    <string name="shoe_detail_size">Shoe size</string>
+    <string name="shoe_detail_description">Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="empty_fields_warning">Please fill all fields</string>
+</resources>
